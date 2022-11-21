@@ -1,4 +1,4 @@
-# Hot and Cold
+# Count de Money :money_mouth_face:
 Level 1 Javascript Project
 
 ### Project Requirements
