@@ -23,7 +23,7 @@ function display() {
   totalMoney.innerHTML = sum;
 }
 
-//Add and Subtract 1 Penny
+// Add and Subtract 1 Penny
 function addPenny() {
   pennies++;
   display();
@@ -34,7 +34,7 @@ function subtractPenny() {
   display();
 }
 
-//Add and Subtract 1 Nickel
+// Add and Subtract 1 Nickel
 function addNickel() {
   nickels++;
   display();
@@ -45,7 +45,7 @@ function subtractNickel() {
   display();
 }
 
-//Add and Subtract 1 Dime
+// Add and Subtract 1 Dime
 function addDime() {
   dimes++;
   display();
@@ -56,7 +56,7 @@ function subtractDime() {
   display();
 }
 
-//Add and Subtract 1 Quarter
+// Add and Subtract 1 Quarter
 function addQuarter() {
   quarters++;
   display();
@@ -67,8 +67,10 @@ function subtractQuarter() {
   display();
 }
 
+// Calculate Total Money
 function calculateTotalMoney() {
   sum = (quarters * .25) + (dimes *.1) + (nickels *.05) + (pennies * .01);
   sum = parseFloat(sum).toFixed(2);
 }
 
+//add a function to get the totals of each coin
