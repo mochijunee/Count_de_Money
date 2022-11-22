@@ -10,16 +10,6 @@ function initialize() {
   dimes = 0; 
   quarters = 0; 
   sum = 0;
-  /*
-  pennyTotal = document.getElementById("valueOfPennies");
-  nickelTotal = document.getElementById("valueOfNickels");
-  dimeTotal = document.getElementById("valueOfDimes");
-  quarterTotal = document.getElementById("valueOfQuarters");
-  penniesValue = 0;
-  nickelsValue = 0;
-  dimesValue = 0;
-  quartersValue = 0;
-  */
   display();
 }
 
