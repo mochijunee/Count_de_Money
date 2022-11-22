@@ -12,6 +12,9 @@ function initialize() {
   sum = 0;
   /*
   pennyTotal = document.getElementById("valueOfPennies");
+  nickelTotal = document.getElementById("valueOfNickels");
+  dimeTotal = document.getElementById("valueOfDimes");
+  quarterTotal = document.getElementById("valueOfQuarters");
   */
   display();
 }
