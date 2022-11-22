@@ -10,6 +10,9 @@ function initialize() {
   dimes = 0; 
   quarters = 0; 
   sum = 0;
+  /*
+  pennyTotal = document.getElementById("valueOfPennies");
+  */
   display();
 }
 
